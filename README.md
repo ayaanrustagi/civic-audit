@@ -1,10 +1,37 @@
-# Civic Audit site v2: DRAFT, NOT PUSHED
+# Civic Audit — GitHub Pages bundle (DRAFT, NOT PUBLISHED)
 
-This is the upgraded version of https://ayaanrustagi.github.io/civic-audit/ (repo `ayaanrustagi/civic-audit`). It was built on 18 Nov 2026 from `latest/data/parsed/results.json` by `ec/tools/build_data.py` and `ec/tools/build_site.py`. `ec/tools/check_site.py` self-checks it for private names, numbers matching the data, anchors and files, and external links.
+Static site for "Citizen Portal and the public record" by Ayaan Rustagi.
+Built 18 Nov 2026 from the latest repo copy (`latest/site/`, generated from `data/parsed/results.json`, 10:26 AM CST).
 
-New in v2: a hero finding, four case studies, an error explorer (filter by body, severity, type, meeting page or article, and text search; filters are kept in the URL), Citizen Portal's words side by side with the record and links to both, methods with the checker accuracy table, limits and strengths, a "Response from Citizen Portal" placeholder, downloadable CSV and JSON of all 1,999 claims and 128 error rows, a how-to-cite block (text and BibTeX), and about the author, ethics and AI-use sections.
+**Status:** findings are AI reference labels awaiting Ayaan's confirmation. A red "Draft — findings pending author
+confirmation; not yet published" banner is pinned to the top, the title starts with [DRAFT], and the page carries
+`noindex, nofollow`. Citizen Portal's reply window runs through 30 Nov 2026; do not publish before 1 Dec 2026.
 
-The red Draft banner, `noindex, nofollow` and the `[DRAFT]` title are kept until Ayaan confirms the labels and 1 Dec 2026 has passed.
+## What's here
+- `index.html` — the whole site (CSS/JS inline)
+- `data.json` — study data (the "Download study data" link); names of members of the public and students are already withheld
+- `assets/fonts/` — self-hosted fonts (OFL licences included)
+- `assets/media/` — EMPTY: the five decorative photos (`church.webp`, `leander.webp`, `depot.webp`, `log-house.webp`,
+  `lake-cover-enhanced.webp`) live in `site/media/` on Ayaan's Mac and were not copied. The page hides them if missing.
+- `.nojekyll` — tells GitHub Pages to serve files as-is
 
-To rebuild after the labels change: rerun the pipeline report, then run
-`python3 ec/tools/build_data.py && python3 ec/tools/build_site.py && python3 ec/tools/check_site.py`.
+## Before publishing (Ayaan)
+1. Confirm or reject the flagged facts in `review/index.html`; rerun `python3 -m civicaudit.pipeline report` so numbers reflect your decisions, and rebuild this bundle from the new `site/`.
+2. Copy `site/media/*.webp` into `assets/media/`.
+3. Remove the draft banner: delete the `<div class="draft-banner" ...>...</div>` right after `<body>`, the
+   `<meta name="robots" content="noindex, nofollow">` line, and `[DRAFT] ` from `<title>`.
+4. Wait until 1 Dec 2026 and fold in any Citizen Portal reply.
+
+## Publish steps (only after the above)
+```bash
+cd pages
+git init -b main
+git add -A
+git commit -m "Civic audit site"
+gh repo create civic-audit --public --source=. --remote=origin --push   # or create the repo on github.com and:
+# git remote add origin https://github.com/<user>/civic-audit.git && git push -u origin main
+```
+Then on GitHub: repo → Settings → Pages → Build and deployment → Source: "Deploy from a branch" →
+Branch: `main`, folder `/ (root)` → Save. The site appears at `https://<user>.github.io/civic-audit/` within a few minutes.
+
+Preview locally: `cd pages && python3 -m http.server 8000` → http://localhost:8000
