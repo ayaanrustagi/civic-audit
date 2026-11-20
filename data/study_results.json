@@ -1,0 +1,473 @@
+{
+ "places": {
+  "seattle": {
+   "articles": 30,
+   "claims": 309,
+   "first_checked": 309,
+   "first_verdicts": {
+    "supported": 246,
+    "not_found": 30,
+    "contradicted": 30,
+    "unclear": 3
+   },
+   "first_contradicted": {
+    "k": 30,
+    "n": 309,
+    "rate": 0.0970873786407767,
+    "low": 0.0688546852596634,
+    "high": 0.13521536169061432
+   },
+   "second_checked": 255,
+   "flagged_by_either": 63,
+   "flagged_reviewed": 63,
+   "confirmed_errors": 12,
+   "major": 10,
+   "minor": 2,
+   "confirmed_per_claim": {
+    "rate": 0.038834951456310676,
+    "low": 0.01529051987767584,
+    "high": 0.06422018348623854,
+    "k": 12,
+    "n": 309,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 8,
+    "n": 30,
+    "rate": 0.26666666666666666,
+    "low": 0.14182495553910618,
+    "high": 0.4444830204431169
+   },
+   "articles_with_major": {
+    "k": 7,
+    "n": 30,
+    "rate": 0.23333333333333334,
+    "low": 0.11792239210501232,
+    "high": 0.40928672330324267
+   },
+   "error_codes": {
+    "E3": 8,
+    "E2": 1,
+    "E5": 1,
+    "E1": 1,
+    "E4": 1
+   },
+   "supported_sample_checked": 10,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  },
+  "columbus": {
+   "articles": 18,
+   "claims": 205,
+   "first_checked": 205,
+   "first_verdicts": {
+    "not_found": 51,
+    "supported": 95,
+    "unclear": 43,
+    "contradicted": 16
+   },
+   "first_contradicted": {
+    "k": 16,
+    "n": 205,
+    "rate": 0.07804878048780488,
+    "low": 0.04860992484636982,
+    "high": 0.12301105488180696
+   },
+   "second_checked": 194,
+   "flagged_by_either": 17,
+   "flagged_reviewed": 17,
+   "confirmed_errors": 10,
+   "major": 0,
+   "minor": 10,
+   "confirmed_per_claim": {
+    "rate": 0.04878048780487805,
+    "low": 0.009708737864077669,
+    "high": 0.0970873786407767,
+    "k": 10,
+    "n": 205,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 5,
+    "n": 18,
+    "rate": 0.2777777777777778,
+    "low": 0.12499569146355474,
+    "high": 0.5087307754619452
+   },
+   "articles_with_major": {
+    "k": 0,
+    "n": 18,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.1758845505823749
+   },
+   "error_codes": {
+    "E8": 4,
+    "E1": 5,
+    "E7": 1
+   },
+   "supported_sample_checked": 10,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  },
+  "wells": {
+   "articles": 25,
+   "claims": 278,
+   "first_checked": 278,
+   "first_verdicts": {
+    "supported": 194,
+    "not_found": 23,
+    "unclear": 35,
+    "contradicted": 26
+   },
+   "first_contradicted": {
+    "k": 26,
+    "n": 278,
+    "rate": 0.09352517985611511,
+    "low": 0.06462355218949474,
+    "high": 0.13350759665439488
+   },
+   "second_checked": 247,
+   "flagged_by_either": 39,
+   "flagged_reviewed": 39,
+   "confirmed_errors": 31,
+   "major": 9,
+   "minor": 22,
+   "confirmed_per_claim": {
+    "rate": 0.11151079136690648,
+    "low": 0.05533596837944664,
+    "high": 0.17253521126760563,
+    "k": 31,
+    "n": 278,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 10,
+    "n": 25,
+    "rate": 0.4,
+    "low": 0.23403057664190918,
+    "high": 0.5926087221487266
+   },
+   "articles_with_major": {
+    "k": 4,
+    "n": 25,
+    "rate": 0.16,
+    "low": 0.06403347608577989,
+    "high": 0.34654013980238163
+   },
+   "error_codes": {
+    "E5": 2,
+    "E1": 15,
+    "E2": 1,
+    "E7": 3,
+    "E3": 6,
+    "E8": 4
+   },
+   "supported_sample_checked": 10,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  },
+  "nephi": {
+   "articles": 13,
+   "claims": 125,
+   "first_checked": 125,
+   "first_verdicts": {
+    "supported": 72,
+    "contradicted": 39,
+    "not_found": 14
+   },
+   "first_contradicted": {
+    "k": 39,
+    "n": 125,
+    "rate": 0.312,
+    "low": 0.2374075954530664,
+    "high": 0.39780339230244116
+   },
+   "second_checked": 125,
+   "flagged_by_either": 39,
+   "flagged_reviewed": 39,
+   "confirmed_errors": 14,
+   "major": 2,
+   "minor": 12,
+   "confirmed_per_claim": {
+    "rate": 0.112,
+    "low": 0.03571428571428571,
+    "high": 0.19858156028368795,
+    "k": 14,
+    "n": 125,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 6,
+    "n": 13,
+    "rate": 0.46153846153846156,
+    "low": 0.2320575430148814,
+    "high": 0.7085656756816796
+   },
+   "articles_with_major": {
+    "k": 1,
+    "n": 13,
+    "rate": 0.07692307692307693,
+    "low": 0.013710066379696323,
+    "high": 0.3331453392824736
+   },
+   "error_codes": {
+    "E1": 10,
+    "E2": 1,
+    "E7": 3
+   },
+   "supported_sample_checked": 10,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  },
+  "newport": {
+   "articles": 28,
+   "claims": 320,
+   "first_checked": 320,
+   "first_verdicts": {
+    "supported": 286,
+    "contradicted": 17,
+    "not_found": 6,
+    "unclear": 11
+   },
+   "first_contradicted": {
+    "k": 17,
+    "n": 320,
+    "rate": 0.053125,
+    "low": 0.033429648993329536,
+    "high": 0.08342254047213753
+   },
+   "second_checked": 197,
+   "flagged_by_either": 17,
+   "flagged_reviewed": 17,
+   "confirmed_errors": 2,
+   "major": 0,
+   "minor": 2,
+   "confirmed_per_claim": {
+    "rate": 0.00625,
+    "low": 0.0,
+    "high": 0.016129032258064516,
+    "k": 2,
+    "n": 320,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 2,
+    "n": 28,
+    "rate": 0.07142857142857142,
+    "low": 0.019811647447770794,
+    "high": 0.2264573842591786
+   },
+   "articles_with_major": {
+    "k": 0,
+    "n": 28,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.12064720365810762
+   },
+   "error_codes": {
+    "E7": 2
+   },
+   "supported_sample_checked": 10,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  }
+ },
+ "pooled": {
+  "large": {
+   "places": [
+    "seattle",
+    "columbus"
+   ],
+   "articles": 48,
+   "claims": 514,
+   "first_checked": 514,
+   "first_verdicts": {
+    "supported": 341,
+    "not_found": 81,
+    "contradicted": 46,
+    "unclear": 46
+   },
+   "first_contradicted": {
+    "k": 46,
+    "n": 514,
+    "rate": 0.08949416342412451,
+    "low": 0.06776513376392285,
+    "high": 0.1173138556413316
+   },
+   "second_checked": 449,
+   "flagged_by_either": 80,
+   "flagged_reviewed": 80,
+   "confirmed_errors": 22,
+   "major": 10,
+   "minor": 12,
+   "confirmed_per_claim": {
+    "rate": 0.042801556420233464,
+    "low": 0.021526418786692758,
+    "high": 0.06790123456790123,
+    "k": 22,
+    "n": 514,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 13,
+    "n": 48,
+    "rate": 0.2708333333333333,
+    "low": 0.16565803561632889,
+    "high": 0.40997234616201117
+   },
+   "articles_with_major": {
+    "k": 7,
+    "n": 48,
+    "rate": 0.14583333333333334,
+    "low": 0.07248157413793963,
+    "high": 0.27167447042858606
+   },
+   "error_codes": {
+    "E3": 8,
+    "E2": 1,
+    "E5": 1,
+    "E1": 6,
+    "E4": 1,
+    "E8": 4,
+    "E7": 1
+   },
+   "supported_sample_checked": 20,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  },
+  "small": {
+   "places": [
+    "wells",
+    "nephi"
+   ],
+   "articles": 38,
+   "claims": 403,
+   "first_checked": 403,
+   "first_verdicts": {
+    "supported": 266,
+    "not_found": 37,
+    "unclear": 35,
+    "contradicted": 65
+   },
+   "first_contradicted": {
+    "k": 65,
+    "n": 403,
+    "rate": 0.16129032258064516,
+    "low": 0.12860586703758292,
+    "high": 0.20037130737132708
+   },
+   "second_checked": 372,
+   "flagged_by_either": 78,
+   "flagged_reviewed": 78,
+   "confirmed_errors": 45,
+   "major": 11,
+   "minor": 34,
+   "confirmed_per_claim": {
+    "rate": 0.11166253101736973,
+    "low": 0.06683804627249357,
+    "high": 0.16195372750642673,
+    "k": 45,
+    "n": 403,
+    "method": "bootstrap over articles"
+   },
+   "articles_with_error": {
+    "k": 16,
+    "n": 38,
+    "rate": 0.42105263157894735,
+    "low": 0.2785227481181953,
+    "high": 0.5780792938687267
+   },
+   "articles_with_major": {
+    "k": 5,
+    "n": 38,
+    "rate": 0.13157894736842105,
+    "low": 0.05753782875731436,
+    "high": 0.2732717005149887
+   },
+   "error_codes": {
+    "E5": 2,
+    "E1": 25,
+    "E2": 2,
+    "E7": 6,
+    "E3": 6,
+    "E8": 4
+   },
+   "supported_sample_checked": 20,
+   "supported_sample_contradicted": 0,
+   "complete": true
+  }
+ },
+ "leander_articles": {
+  "articles": 79,
+  "claims": 928,
+  "first_checked": 928,
+  "first_verdicts": {
+   "supported": 510,
+   "contradicted": 93,
+   "not_found": 125,
+   "unclear": 200
+  },
+  "first_contradicted": {
+   "k": 93,
+   "n": 928,
+   "rate": 0.10021551724137931,
+   "low": 0.0825126952722423,
+   "high": 0.12121463349264651
+  },
+  "second_checked": 897,
+  "flagged_by_either": 108,
+  "flagged_reviewed": 108,
+  "confirmed_errors": 66,
+  "major": 14,
+  "minor": 52,
+  "confirmed_per_claim": {
+   "rate": 0.07112068965517242,
+   "low": 0.04446742502585315,
+   "high": 0.10175438596491228,
+   "k": 66,
+   "n": 928,
+   "method": "bootstrap over articles"
+  },
+  "articles_with_error": {
+   "k": 25,
+   "n": 79,
+   "rate": 0.31645569620253167,
+   "low": 0.22445138397970427,
+   "high": 0.42548294852956653
+  },
+  "articles_with_major": {
+   "k": 10,
+   "n": 79,
+   "rate": 0.12658227848101267,
+   "low": 0.07023187936799044,
+   "high": 0.2175655557370775
+  },
+  "error_codes": {
+   "E1": 49,
+   "E7": 4,
+   "E2": 4,
+   "E4": 2,
+   "E5": 3,
+   "E8": 3,
+   "E6": 1
+  },
+  "supported_sample_checked": 0,
+  "supported_sample_contradicted": 0,
+  "complete": true,
+  "note": "Leander/Cedar Park/LISD articles from the first study; reference labels by Fable/Claude (AI, unconfirmed); multisite places use the Grok reference review."
+ },
+ "small_minus_large": {
+  "articles_with_major": {
+   "diff": -0.014254385964912297,
+   "low": -0.16026150575915438,
+   "high": 0.14529910622912648
+  },
+  "articles_with_error": {
+   "diff": 0.15021929824561403,
+   "low": -0.048965120247084715,
+   "high": 0.3392145783976034
+  },
+  "method": "Newcombe (Wilson) 95% interval for a difference of two proportions; articles treated as independent"
+ }
+}
