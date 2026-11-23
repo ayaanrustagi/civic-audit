@@ -151,8 +151,8 @@
   },
   "errors": 128,
   "distinct_errors": 55,
-  "major": 20,
-  "distinct_major": 15,
+  "major": 13,
+  "distinct_major": 9,
   "by_code": {
    "E1": 97,
    "E2": 8,
@@ -469,7 +469,7 @@
   }
  ],
  "articles_with_major": {
-  "k": 10,
+  "k": 4,
   "n": 79
  },
  "meetings": [
@@ -544,7 +544,7 @@
    "kind": "minutes-source",
    "cp_url": "https://citizenportal.ai/source/11346006/october-1-2026-at-615-pm-minutes",
    "minutes_posted": true,
-   "transcript": "\u2014 (generated from minutes PDF)",
+   "transcript": "— (generated from minutes PDF)",
    "segments": 9,
    "articles": 5,
    "claims": 52,
@@ -854,7 +854,7 @@
    "severity": "Minor",
    "cp_quote": "Mayor Nicole Thompson",
    "cp_url": "https://citizenportal.ai/source/10604828/city-council-regular-meeting-2026-10-01",
-   "record_quote": "Mayor \u2013 Na'Cole Thompson",
+   "record_quote": "Mayor – Na'Cole Thompson",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3416,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 12 of leandertx_864_Minutes_3416.txt",
    "names_withheld": false
@@ -870,7 +870,7 @@
    "severity": "Minor",
    "cp_quote": "Mayor Nicole Thompson",
    "cp_url": "https://citizenportal.ai/source/10604828/city-council-regular-meeting-2026-10-01",
-   "record_quote": "Mayor \u2013 Na'Cole Thompson",
+   "record_quote": "Mayor – Na'Cole Thompson",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3416,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 12 of leandertx_864_Minutes_3416.txt",
    "names_withheld": false
@@ -950,7 +950,7 @@
    "severity": "Minor",
    "cp_quote": "Council member Steven Chang",
    "cp_url": "https://citizenportal.ai/source/10604859/city-council-special-meeting-2026-09-22",
-   "record_quote": "Place 1 \u2013 Stephen Chang",
+   "record_quote": "Place 1 – Stephen Chang",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3348,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 13 of leandertx_944_Minutes_3348.txt",
    "names_withheld": false
@@ -966,7 +966,7 @@
    "severity": "Minor",
    "cp_quote": "City Manager Todd Pardon",
    "cp_url": "https://citizenportal.ai/source/10604859/city-council-special-meeting-2026-09-22",
-   "record_quote": "City Manager \u2013 Todd Parton",
+   "record_quote": "City Manager – Todd Parton",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3348,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 15 of leandertx_944_Minutes_3348.txt",
    "names_withheld": false
@@ -982,7 +982,7 @@
    "severity": "Minor",
    "cp_quote": "Mayor Nicole Thompson",
    "cp_url": "https://citizenportal.ai/source/10604859/city-council-special-meeting-2026-09-22",
-   "record_quote": "Mayor \u2013 Na'Cole Thompson",
+   "record_quote": "Mayor – Na'Cole Thompson",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3348,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 12 of leandertx_944_Minutes_3348.txt",
    "names_withheld": false
@@ -998,7 +998,7 @@
    "severity": "Minor",
    "cp_quote": "Council member Steven Chang",
    "cp_url": "https://citizenportal.ai/source/10604859/city-council-special-meeting-2026-09-22",
-   "record_quote": "Place 1 \u2013 Stephen Chang",
+   "record_quote": "Place 1 – Stephen Chang",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3348,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 13 of leandertx_944_Minutes_3348.txt",
    "names_withheld": false
@@ -1018,7 +1018,7 @@
    "record_link": "https://leandertx.new.swagit.com/videos/401929?ts=2055",
    "record_where": "Official video at 0:34:15",
    "names_withheld": false,
-   "cp_sentence": "The motion carried on a roll call vote and the council accepted the revised five\u2011year Leander Public Arts & Culture Master Plan with direction to correct naming and vet implementation items through Parks & Recreation."
+   "cp_sentence": "The motion carried on a roll call vote and the council accepted the revised five‑year Leander Public Arts & Culture Master Plan with direction to correct naming and vet implementation items through Parks & Recreation."
   },
   {
    "claim_id": "10604859:summary#5",
@@ -1048,7 +1048,7 @@
    "severity": "Major",
    "cp_quote": "personnel/confidential matters",
    "cp_url": "https://citizenportal.ai/source/10814631/city-council-10082026",
-   "record_quote": "Section \u00a7 551.071 (2) Consultation With Attorney",
+   "record_quote": "Section § 551.071 (2) Consultation With Attorney",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Minutes-8b564bef9f584a0995bc3ef3a26814b0.pdf#page=1",
    "record_where": "Minutes, page 1, line 32 of cedarparktx_403485_Minutes.txt",
    "names_withheld": false,
@@ -1145,7 +1145,7 @@
    "severity": "Minor",
    "cp_quote": "Andrea/Andrina Davila",
    "cp_url": "https://citizenportal.ai/source/10814631/city-council-10082026",
-   "record_quote": "Andreina D\u00e1vila, AICP, Development Services Asst. Director",
+   "record_quote": "Andreina Dávila, AICP, Development Services Asst. Director",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Minutes-8b564bef9f584a0995bc3ef3a26814b0.pdf#page=4",
    "record_where": "Minutes, page 4, line 166 of cedarparktx_403485_Minutes.txt",
    "names_withheld": false
@@ -1161,7 +1161,7 @@
    "severity": "Minor",
    "cp_quote": "Andrina Davila",
    "cp_url": "https://citizenportal.ai/source/10814631/city-council-10082026",
-   "record_quote": "Andreina D\u00e1vila, AICP, Development Services Asst. Director",
+   "record_quote": "Andreina Dávila, AICP, Development Services Asst. Director",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Minutes-8b564bef9f584a0995bc3ef3a26814b0.pdf#page=4",
    "record_where": "Minutes, page 4, line 186 of cedarparktx_403485_Minutes.txt",
    "names_withheld": false
@@ -1210,7 +1210,7 @@
    "severity": "Minor",
    "cp_quote": "Vice Chair Landryp",
    "cp_url": "https://citizenportal.ai/source/10955372/pz-commission-2026-09-24",
-   "record_quote": "Place 6 \u2013 Laura Lantrip, Vice-Chair",
+   "record_quote": "Place 6 – Laura Lantrip, Vice-Chair",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3385,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 15 of leandertx_890_Minutes_3385.txt",
    "names_withheld": false
@@ -1226,7 +1226,7 @@
    "severity": "Minor",
    "cp_quote": "Coates",
    "cp_url": "https://citizenportal.ai/source/10955372/pz-commission-2026-09-24",
-   "record_quote": "Place 4 \u2013 Jay Coats",
+   "record_quote": "Place 4 – Jay Coats",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3385,plainText=false)#page=1",
    "record_where": "Minutes, page 1, line 13 of leandertx_890_Minutes_3385.txt",
    "names_withheld": false
@@ -1324,7 +1324,7 @@
    "severity": "Minor",
    "cp_quote": "Vice Chair Lantrop",
    "cp_url": "https://citizenportal.ai/source/11364245/pz-commission-2026-10-22",
-   "record_quote": "Place 6 \u2013 Laura Lantrip, Vice-Chair",
+   "record_quote": "Place 6 – Laura Lantrip, Vice-Chair",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3381,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 13 of leandertx_891_Agenda_3381.txt",
    "names_withheld": false
@@ -1386,7 +1386,7 @@
    "error_code": "E1",
    "error_type": "name",
    "severity": "Minor",
-   "cp_quote": "Lukacs\u2019s family",
+   "cp_quote": "Lukacs’s family",
    "cp_url": "https://citizenportal.ai/source/11433236/city-council-10222026",
    "record_quote": "Recognition Of The Retirement Of Bryan Wukasch, Assistant Chief Of",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Agenda-8b16eb17b6b84f04861299dea84c0f49.pdf#page=2",
@@ -1628,7 +1628,7 @@
    "severity": "Minor",
    "cp_quote": "Mayor Nicole Thompson",
    "cp_url": "https://citizenportal.ai/source/12001188/city-council-special-meeting-2026-11-10",
-   "record_quote": "Mayor \u2013 Na'Cole Thompson",
+   "record_quote": "Mayor – Na'Cole Thompson",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3397,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 12 of leandertx_956_Agenda_3397.txt",
    "names_withheld": false
@@ -1676,7 +1676,7 @@
    "severity": "Minor",
    "cp_quote": "Mayor Pro Tem Becky Ross",
    "cp_url": "https://citizenportal.ai/source/12001188/city-council-special-meeting-2026-11-10",
-   "record_quote": "Place 6 \u2013 Becki Ross, Mayor Pro Tem",
+   "record_quote": "Place 6 – Becki Ross, Mayor Pro Tem",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3397,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 14 of leandertx_956_Agenda_3397.txt",
    "names_withheld": false
@@ -1833,14 +1833,14 @@
    "origin": "headline",
    "error_code": "E1",
    "error_type": "name",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "former Fabian Elementary",
    "cp_url": "https://citizenportal.ai/articles/10426262/texas/school-districts/leander-isd/district-updates-trustees-on-new-hope-high-school-repurposing-of-former-fabian-elementary",
    "record_quote": "Repurposing of Faubion Elementary School",
    "record_link": "https://meetings.boardbook.org/Documents/DownloadPDF/14576311?org=795#page=1",
    "record_where": "Minutes, page 1, line 29 of boardbook_795_762814_minutes.txt",
    "names_withheld": false,
-   "cp_sentence": "District updates trustees on New Hope High School repurposing of former Fabian Elementary"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline)."
   },
   {
    "claim_id": "A10426264:body#1",
@@ -1898,14 +1898,14 @@
    "origin": "headline",
    "error_code": "E1",
    "error_type": "name",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "Heisel Elementary showcases",
    "cp_url": "https://citizenportal.ai/articles/10426264/texas/school-districts/leander-isd/heisel-elementary-showcases-student-led-family-engagement-with-weekly-hounds-in-the-hall-events",
    "record_quote": "Spotlight on Learning: Hisle Elementary School",
    "record_link": "https://meetings.boardbook.org/Documents/DownloadPDF/14576311?org=795#page=1",
    "record_where": "Minutes, page 1, line 22 of boardbook_795_762814_minutes.txt",
    "names_withheld": false,
-   "cp_sentence": "Heisel Elementary showcases student-led family engagement with weekly 'Hounds in the Hall' events"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline)."
   },
   {
    "claim_id": "A10607504:headline#2",
@@ -1915,14 +1915,14 @@
    "origin": "headline",
    "error_code": "E7",
    "error_type": "overstatement",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "reschedules community events",
    "cp_url": "https://citizenportal.ai/articles/10607504/texas/williamson-county/leander/council-recognizes-leander-blue-santa-and-reschedules-community-events",
    "record_quote": "WE DID POSTPONE THE EVENT DUE TO WEATHER, SO EVERYBODY STAY SAFE THIS WEEK.",
    "record_link": "https://leandertx.new.swagit.com/videos/402823?ts=2080",
    "record_where": "Official video at 0:34:40",
    "names_withheld": false,
-   "cp_sentence": "Council recognizes Leander Blue Santa and reschedules community events"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline). JUDGMENT CALL for Ayaan: the headline turns an announcement into a council action; if read as misstating an official action it would be Major on content."
   },
   {
    "claim_id": "A10607516:body#4",
@@ -2140,14 +2140,14 @@
    "origin": "headline",
    "error_code": "E7",
    "error_type": "overstatement",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "Residents press council",
    "cp_url": "https://citizenportal.ai/articles/10815213/texas/williamson-county/cedar-park/residents-press-council-for-open-process-before-flock-camera-license-plate-reader-meeting",
    "record_quote": "[name withheld], Cedar Park, commented on the use of Flock cameras.",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Minutes-8b564bef9f584a0995bc3ef3a26814b0.pdf#page=2",
    "record_where": "Minutes, page 2, line 74 of cedarparktx_403485_Minutes.txt",
    "names_withheld": true,
-   "cp_sentence": "Residents press council for open process before flock camera, license-plate reader meeting"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline)."
   },
   {
    "claim_id": "A10815219:body#1",
@@ -2237,14 +2237,14 @@
    "origin": "headline",
    "error_code": "E1",
    "error_type": "name",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "Wylie Middle students",
    "cp_url": "https://citizenportal.ai/articles/11197035/texas/school-districts/leander-isd/wylie-middle-students-demonstrate-collaborative-math-strategies-to-leander-isd-board",
    "record_quote": "Spotlight on Learning: Wiley Middle School",
    "record_link": "https://meetings.boardbook.org/Documents/DownloadPDF/14625189?org=795#page=1",
    "record_where": "Minutes, page 1, line 22 of boardbook_795_764677_minutes.txt",
    "names_withheld": false,
-   "cp_sentence": "Wylie Middle students demonstrate collaborative math strategies to Leander ISD board"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline)."
   },
   {
    "claim_id": "A11197036:body#1",
@@ -2345,7 +2345,8 @@
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3417,plainText=false)#page=6",
    "record_where": "Minutes, page 6, line 296 of leandertx_801_Minutes_3417.txt",
    "names_withheld": false,
-   "cp_sentence": "Leander police accept Lion Institute cultural assessment; chief outlines 90\u2011day plan"
+   "cp_sentence": "Leander police accept Lion Institute cultural assessment; chief outlines 90‑day plan",
+   "note": "Stays Major on content after the headline rule was dropped (Nov 22, 2026): it names the wrong actor for an official action (the council accepted the assessment 7-0, not the police), the same rule as the size-matched study. JUDGMENT CALL for Ayaan."
   },
   {
    "claim_id": "A11213757:body#1",
@@ -2438,7 +2439,7 @@
    "severity": "Minor",
    "cp_quote": "Vice Chair Lantrop",
    "cp_url": "https://citizenportal.ai/articles/11364617/texas/williamson-county/leander/planning-and-zoning-commission-approves-consent-agenda-unanimously-postpones-item-9-and-adjourns",
-   "record_quote": "Place 6 \u2013 Laura Lantrip, Vice-Chair",
+   "record_quote": "Place 6 – Laura Lantrip, Vice-Chair",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3381,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 13 of leandertx_891_Agenda_3381.txt",
    "names_withheld": false
@@ -2454,7 +2455,7 @@
    "severity": "Minor",
    "cp_quote": "Vice Chair Lantrop",
    "cp_url": "https://citizenportal.ai/articles/11364617/texas/williamson-county/leander/planning-and-zoning-commission-approves-consent-agenda-unanimously-postpones-item-9-and-adjourns",
-   "record_quote": "Place 6 \u2013 Laura Lantrip, Vice-Chair",
+   "record_quote": "Place 6 – Laura Lantrip, Vice-Chair",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3381,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 13 of leandertx_891_Agenda_3381.txt",
    "names_withheld": false
@@ -2470,7 +2471,7 @@
    "severity": "Minor",
    "cp_quote": "Vice Chair Lantrop",
    "cp_url": "https://citizenportal.ai/articles/11364617/texas/williamson-county/leander/planning-and-zoning-commission-approves-consent-agenda-unanimously-postpones-item-9-and-adjourns",
-   "record_quote": "Place 6 \u2013 Laura Lantrip, Vice-Chair",
+   "record_quote": "Place 6 – Laura Lantrip, Vice-Chair",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3381,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 13 of leandertx_891_Agenda_3381.txt",
    "names_withheld": false
@@ -2486,7 +2487,7 @@
    "severity": "Minor",
    "cp_quote": "Vice Chair Lantrop",
    "cp_url": "https://citizenportal.ai/articles/11364617/texas/williamson-county/leander/planning-and-zoning-commission-approves-consent-agenda-unanimously-postpones-item-9-and-adjourns",
-   "record_quote": "Place 6 \u2013 Laura Lantrip, Vice-Chair",
+   "record_quote": "Place 6 – Laura Lantrip, Vice-Chair",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3381,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 13 of leandertx_891_Agenda_3381.txt",
    "names_withheld": false
@@ -2500,7 +2501,7 @@
    "error_code": "E8",
    "error_type": "date/metadata",
    "severity": "Minor",
-   "cp_quote": "Monday\u2019s meeting",
+   "cp_quote": "Monday’s meeting",
    "cp_url": "https://citizenportal.ai/articles/11433669/texas/williamson-county/cedar-park/cedar-park-honors-assistant-chief-brian-lukacs-as-he-retires-after-27-years-will-join-tyler-college-academy",
    "record_quote": "OCTOBER 22, 2026 AT 7:00 PM",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Agenda-8b16eb17b6b84f04861299dea84c0f49.pdf#page=1",
@@ -2563,14 +2564,14 @@
    "origin": "headline",
    "error_code": "E1",
    "error_type": "name",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "Brian Lukacs",
    "cp_url": "https://citizenportal.ai/articles/11433669/texas/williamson-county/cedar-park/cedar-park-honors-assistant-chief-brian-lukacs-as-he-retires-after-27-years-will-join-tyler-college-academy",
    "record_quote": "Recognition Of The Retirement Of Bryan Wukasch",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Agenda-8b16eb17b6b84f04861299dea84c0f49.pdf#page=2",
    "record_where": "Agenda, page 2, line 55 of cedarparktx_404930_Agenda.txt",
    "names_withheld": false,
-   "cp_sentence": "Cedar Park honors Assistant Chief Brian Lukacs as he retires after 27 years; will join Tyler College academy"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline)."
   },
   {
    "claim_id": "A11433669:headline#2",
@@ -2580,14 +2581,14 @@
    "origin": "headline",
    "error_code": "E1",
    "error_type": "name",
-   "severity": "Major",
+   "severity": "Minor",
    "cp_quote": "Brian Lukacs",
    "cp_url": "https://citizenportal.ai/articles/11433669/texas/williamson-county/cedar-park/cedar-park-honors-assistant-chief-brian-lukacs-as-he-retires-after-27-years-will-join-tyler-college-academy",
    "record_quote": "Recognition Of The Retirement Of Bryan Wukasch",
    "record_link": "https://mccmeetings.blob.core.usgovcloudapi.net/cptx-pubu/MEET-Agenda-8b16eb17b6b84f04861299dea84c0f49.pdf#page=2",
    "record_where": "Agenda, page 2, line 55 of cedarparktx_404930_Agenda.txt",
    "names_withheld": false,
-   "cp_sentence": "Cedar Park honors Assistant Chief Brian Lukacs as he retires after 27 years; will join Tyler College academy"
+   "note": "Headline rule dropped Nov 22, 2026: judged on content, Minor (was Major only because it was in a headline)."
   },
   {
    "claim_id": "A11642610:body#2",
@@ -2746,7 +2747,7 @@
    "severity": "Minor",
    "cp_quote": "Mayor Pro Tem Becky Ross",
    "cp_url": "https://citizenportal.ai/articles/12002164/texas/williamson-county/leander/council-divides-on-tone-opportunity-vs-hometown-vs-details",
-   "record_quote": "Place 6 \u2013 Becki Ross, Mayor Pro Tem",
+   "record_quote": "Place 6 – Becki Ross, Mayor Pro Tem",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3397,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 14 of leandertx_956_Agenda_3397.txt",
    "names_withheld": false
@@ -2762,7 +2763,7 @@
    "severity": "Minor",
    "cp_quote": "Becky Ross",
    "cp_url": "https://citizenportal.ai/articles/12002164/texas/williamson-county/leander/council-divides-on-tone-opportunity-vs-hometown-vs-details",
-   "record_quote": "Place 6 \u2013 Becki Ross, Mayor Pro Tem",
+   "record_quote": "Place 6 – Becki Ross, Mayor Pro Tem",
    "record_link": "https://leandertx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3397,plainText=false)#page=1",
    "record_where": "Agenda, page 1, line 14 of leandertx_956_Agenda_3397.txt",
    "names_withheld": false

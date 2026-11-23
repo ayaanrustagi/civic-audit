@@ -12,7 +12,7 @@
 | **Large places combined** | | 48 | 514 | 8.9% | 22 (10/12) | 7/48 = 14.6% [7.2–27.2] |
 | **Small places combined** | | 38 | 403 | 16.1% | 45 (11/34) | 5/38 = 13.2% [5.8–27.3] |
 | Newport, NH Board of Selectmen (document-based, reported separately) | small | 28 | 320 | 5.3% | 2 (0/2) | 0/28 = 0.0% [0.0–12.1] |
-| Leander (first study), for reference | | 79 | 928 | 10.0% | 66 (14/52) | 10/79 = 12.7% [7.0–21.8] |
+| Leander (first study), for reference | | 79 | 928 | 10.0% | 66 (7/59) | 4/79 = 5.1% [2.0–12.3] |
 
 - **Small minus large, articles with a Major error:** −1.4 points, 95% CI −16.0 to +14.5 (Newcombe, articles treated as independent). No difference shown.
 - **Small minus large, articles with any confirmed error:** +15.0 points, 95% CI −4.9 to +33.9. Also not significant.
